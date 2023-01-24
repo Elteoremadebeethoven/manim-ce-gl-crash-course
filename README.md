@@ -1,6 +1,30 @@
 # Manim CE/GL fast course
 
-## Manim GL setup:
+## ManimCE setup:
+
+Install ManimCE last version:
+
+```bash
+$ mkdir mce
+$ cd mce
+$ virtualenv venv
+(Mac/Linux)$ source venv/bin/activate
+(Windows)  $ .\venv\Scripts\activate
+$ pip install manim jupyter
+```
+
+Clone repo:
+
+```
+git clone https://github.com/Elteoremadebeethoven/manim-ce-gl-fast-course.git -b mce code
+```
+
+Select the virtual environment that you have created.
+
+![image](https://user-images.githubusercontent.com/43224662/214361758-c2cccdeb-e532-4e24-9a3d-2ae8f4bc5546.png)
+
+
+## ManimGL setup:
 
 Install ManimGL v1.2 version:
 
@@ -11,6 +35,12 @@ $ virtualenv venv
 (Mac/Linux)$ source venv/bin/activate
 (Windows)  $ .\venv\Scripts\activate
 $ pip install -e .
+```
+
+Remove unnecessary files:
+
+```bash
+rm -rf docs LICENSE.md logo MANIFEST.in manimgl.egg-info pyproject.toml README.md requirements.txt setup.*
 ```
 
 Extra dependencies:
@@ -81,5 +111,5 @@ if __name__ == '__main__':
 Clone repo:
 
 ```
-git clone https://github.com/Elteoremadebeethoven/manim-ce-gl-fast-course.git -b mgl mgl
+git clone https://github.com/Elteoremadebeethoven/manim-ce-gl-fast-course.git -b mgl code
 ```
