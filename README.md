@@ -2,6 +2,17 @@
 
 ## Manim GL setup:
 
+Install ManimGL v1.2 version:
+
+```bash
+$ git clone https://github.com/3b1b/manim/ -b v1.2.0 mgl-v1.2 --depth=1
+$ cd mgl-v1.2
+$ virtualenv venv
+(Mac/Linux)$ source venv/bin/activate
+(Windows)  $ .\venv\Scripts\activate
+$ pip install -e .
+```
+
 Extra dependencies:
 
 ```
@@ -65,4 +76,10 @@ if __name__ == '__main__':
     COMMAND = f"manimgl {script_name} {SCENE} {FLAGS}"
     print(f"CMD:\033[1m manimgl \033[96m{script_name} \033[93m{SCENE} \033[94m{FLAGS}")
     os.system(COMMAND)
+```
 
+Clone repo:
+
+```
+git clone https://github.com/Elteoremadebeethoven/manim-ce-gl-fast-course.git -b mgl mgl
+```
