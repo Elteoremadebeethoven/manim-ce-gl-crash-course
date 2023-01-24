@@ -1,5 +1,24 @@
 # Manim CE/GL fast course
 
+## Disclaimer
+
+|                       | Manim Professional Course | ManimCE-GL Fast course |
+| :-------------------: | :-----------------------: | :--------------------: |
+|        Theory         |             ✅             |           ✅            |
+|       Pro-tips        |             ✅             |           ❌            |
+|       Examples        |             ✅             |           ❌            |
+|       Exercises       |             ✅             |           ❌            |
+| ManimGL topics (v1.2) |             ❌             |           ✅            |
+|         Free          |             ❌             |           ✅            |
+
+
+
+## Install ManimCE and ManimGL (click in the image):
+
+Although the video is from last year it is still valid.
+
+[![Alt text](https://img.youtube.com/vi/CYOLQk8GpME/0.jpg)](https://www.youtube.com/watch?v=CYOLQk8GpME)
+
 ## ManimCE setup:
 
 Install ManimCE last version:
