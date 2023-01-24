@@ -53,10 +53,16 @@ Although the video is from last year it is still valid.
 ### Req-7. View the following videos in the order shown.
 
 1.
-[![manim installation](https://img.youtube.com/vi/CYOLQk8GpME/0.jpg)](https://www.youtube.com/watch?v=CYOLQk8GpME)
+[![manim installation](https://img.youtube.com/vi/gGU823uEUXU/0.jpg)](https://www.youtube.com/watch?v=gGU823uEUXU)
 
 2.
-[![manim installation](https://img.youtube.com/vi/CYOLQk8GpME/0.jpg)](https://www.youtube.com/watch?v=CYOLQk8GpME)
+[![manim installation](https://img.youtube.com/vi/xs_dlmUkWDY/0.jpg)](https://www.youtube.com/watch?v=xs_dlmUkWDY)
+
+3.
+[![manim installation](https://img.youtube.com/vi/E5ot6LXcogw/0.jpg)](https://www.youtube.com/watch?v=E5ot6LXcogw)
+
+4. Manim with `watchexec` 
+[![manim installation](https://img.youtube.com/vi/pW6tGCCzMMQ/0.jpg)](https://www.youtube.com/watch?v=pW6tGCCzMMQ)
 
 
 ## ManimCE setup:
