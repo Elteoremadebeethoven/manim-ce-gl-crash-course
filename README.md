@@ -69,7 +69,7 @@ Although the video is from last year it is still valid.
 
 ### Rules:
 
-1. Share the code in markdown format, [here's](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) a quick tutorial. Please ****DO NOT*** share code on images.
+1. Share the code in markdown format, [here's](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) a quick tutorial. Please ***DO NOT*** share code on images.
 2. Your question must be accurate, the code should not be longer than ***30 lines***.
 3. Format the code so that it is easy to read, it must be in English and indented with descriptive names.
 
