@@ -1,6 +1,6 @@
 # Manim CE/GL fast course
 
-## Disclaimer
+## ► Disclaimer
 
 |                       | Manim Professional Course | ManimCE-GL Fast course |
 | :-------------------: | :-----------------------: | :--------------------: |
@@ -11,7 +11,7 @@
 | ManimGL topics (v1.2) |             ❌             |           ✅            |
 |         Free          |             ❌             |           ✅            |
 
-## Requirements to take the course:
+## ► Requirements to take the course:
 
 ### Req-0. See if it is really necessary for you to learn Manim, in this video I explain if it is worth it for you.
 
@@ -65,7 +65,7 @@ Although the video is from last year it is still valid.
 
 [![manim installation](https://img.youtube.com/vi/pW6tGCCzMMQ/0.jpg)](https://www.youtube.com/watch?v=pW6tGCCzMMQ)
 
-## Where to ask questions:
+## ► Where to ask questions:
 
 ### Rules:
 
@@ -81,7 +81,7 @@ Although the video is from last year it is still valid.
 
 ⚠️⚠️⚠️ ***I will not answer questions that are asked in the videos, nor in the issues of this repository*** ⚠️⚠️⚠️
 
-## ManimCE setup:
+## ► ManimCE setup:
 
 Install ManimCE last version:
 
@@ -105,7 +105,7 @@ Select the virtual environment that you have created.
 ![image](https://user-images.githubusercontent.com/43224662/214361758-c2cccdeb-e532-4e24-9a3d-2ae8f4bc5546.png)
 
 
-## ManimGL setup:
+## ► ManimGL setup:
 
 Install ManimGL v1.2 version:
 
@@ -195,7 +195,7 @@ Clone repo:
 git clone https://github.com/Elteoremadebeethoven/manim-ce-gl-fast-course.git -b mgl code
 ```
 
-# Suport this work on:
+# 💸 Suport this work on:
 
 ## PayPal: https://www.paypal.com/paypalme/zavdn
 ## Patreon: https://www.patreon.com/theoremofbeethoven
