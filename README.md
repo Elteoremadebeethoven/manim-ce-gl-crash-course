@@ -62,6 +62,7 @@ Although the video is from last year it is still valid.
 [![manim installation](https://img.youtube.com/vi/E5ot6LXcogw/0.jpg)](https://www.youtube.com/watch?v=E5ot6LXcogw)
 
 4. Manim with `watchexec` 
+
 [![manim installation](https://img.youtube.com/vi/pW6tGCCzMMQ/0.jpg)](https://www.youtube.com/watch?v=pW6tGCCzMMQ)
 
 
