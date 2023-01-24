@@ -75,7 +75,7 @@ Although the video is from last year it is still valid.
 
 ### 1. Discord: https://discord.com/invite/bYCyhM9Kz2
 
-### 2. [Stackoverflow](stackoverflow.com): Use the `manim` tag.
+### 2. [Stackoverflow](https://stackoverflow.com): Use the `manim` tag.
 
 ### 3. Reddit: https://www.reddit.com/r/manim/
 
