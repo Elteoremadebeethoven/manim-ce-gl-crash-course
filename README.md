@@ -65,6 +65,21 @@ Although the video is from last year it is still valid.
 
 [![manim installation](https://img.youtube.com/vi/pW6tGCCzMMQ/0.jpg)](https://www.youtube.com/watch?v=pW6tGCCzMMQ)
 
+## Where to ask questions:
+
+### Rules:
+
+1. Share the code in markdown format, [here's](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) a quick tutorial. Please ****DO NOT*** share code on images.
+2. Your question must be accurate, the code should not be longer than ***30 lines***.
+3. Format the code so that it is easy to read, it must be in English and indented with descriptive names.
+
+### 1. Discord: https://discord.com/invite/bYCyhM9Kz2
+
+### 2. [Stackoverflow](stackoverflow.com): Use the `manim` tag.
+
+### 3. Reddit: https://www.reddit.com/r/manim/
+
+⚠️⚠️⚠️ ***I will not answer questions that are asked in the videos, nor in the issues of this repository*** ⚠️⚠️⚠️
 
 ## ManimCE setup:
 
@@ -179,3 +194,8 @@ Clone repo:
 ```
 git clone https://github.com/Elteoremadebeethoven/manim-ce-gl-fast-course.git -b mgl code
 ```
+
+# Suport this work on:
+
+## PayPal: https://www.paypal.com/paypalme/zavdn
+## Patreon: https://www.patreon.com/theoremofbeethoven
