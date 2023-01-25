@@ -1,5 +1,7 @@
 # Manim CE/GL fast course
 
+Estimated time to finish it: 1 year
+
 ## Syllabus
 
 0. Introduction
