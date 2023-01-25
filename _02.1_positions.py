@@ -18,6 +18,7 @@ class _01(Scene):
     def construct(self):
         number_plane = NumberPlane()
         self.add(number_plane)
+        self.wait()
 
 
 class _02(Scene):
@@ -28,6 +29,7 @@ class _02(Scene):
 
         self.add(number_plane)
         self.add(dot)
+        self.wait()
 
 """
 ORIGIN = np.array([ 0, 0, 0])
@@ -50,6 +52,7 @@ class _03(Scene):
         dot = Dot().move_to(2 * RIGHT + 3 * DOWN)
 
         self.add(number_plane, dot)
+        self.wait()
 
 
 class _04(Scene):
@@ -62,6 +65,7 @@ class _04(Scene):
         dot.move_to(2 * RIGHT + 3 * DOWN)
 
         self.add(number_plane, dot)
+        self.wait()
 
 
 class _05(Scene):
@@ -72,6 +76,7 @@ class _05(Scene):
         dot = Dot().move_to(sq)
 
         self.add(number_plane, sq, dot)
+        self.wait()
 
 
 class _06(Scene):
@@ -82,6 +87,7 @@ class _06(Scene):
         dot = Dot().move_to(sq.get_center() + RIGHT * 2)
 
         self.add(number_plane, sq, dot)
+        self.wait()
 
 
 class _07(Scene):
@@ -92,6 +98,7 @@ class _07(Scene):
         dot = Dot().move_to(sq.get_right())
 
         self.add(number_plane, sq, dot)
+        self.wait()
 
 
 class _08(Scene):
@@ -102,6 +109,7 @@ class _08(Scene):
         # c.to_edge(UP)
 
         self.add(number_plane, c)
+        self.wait()
 
 
 class _09(Scene):
@@ -112,15 +120,17 @@ class _09(Scene):
         c.to_edge(UP, buff=0) # buff(er) = gap between edges
 
         self.add(number_plane, c)
+        self.wait()
 
 
 class _10(Scene):
     def construct(self):
         number_plane = NumberPlane()
         # buff can also be negative
-        c = Circle().to_edge(UR, buff=0)
+        c = Circle().to_corner(UR, buff=0)
 
         self.add(number_plane, c)
+        self.wait()
 
 
 class _11(Scene):
@@ -134,6 +144,7 @@ class _11(Scene):
         # c.shift(RIGHT)
 
         self.add(number_plane, c)
+        self.wait()
 
 
 class _12(Scene):
@@ -144,6 +155,7 @@ class _12(Scene):
         c = Circle().next_to(s, DOWN)
 
         self.add(number_plane, s, c)
+        self.wait()
 
 
 class _13(Scene):
@@ -154,6 +166,7 @@ class _13(Scene):
         c = Circle().next_to(s, DOWN, buff=0)
 
         self.add(number_plane, s, c)
+        self.wait()
 
 
 class _14(Scene):
@@ -164,6 +177,7 @@ class _14(Scene):
         t = Text("A").next_to(s, DOWN, aligned_edge=ORIGIN)
 
         self.add(number_plane, s, t)
+        self.wait()
 
 
 class _15(Scene):
@@ -176,3 +190,4 @@ class _15(Scene):
         # t.align_to(s, RIGHT)
 
         self.add(number_plane, s, t)
+        self.wait()

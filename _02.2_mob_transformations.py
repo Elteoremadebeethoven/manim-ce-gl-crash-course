@@ -216,8 +216,10 @@ class _10(Scene):
         ref1 = Dot()
         ref2 = Dot(mob1.get_corner(DL), color=RED)
 
+        P = np.tan(30 * DEGREES)
+
         matrix = [
-            [1, np.tan(30 * DEGREES), 0],
+            [1, P, 0],
             [0, 1, 0],
             [0, 0, 1],
         ]
