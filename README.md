@@ -48,9 +48,15 @@
 	* Arcs
 	* Brace
 	* Polygons
+	* NumberLine
 11. 2D plots
 12. 3D plots
 13. Basic Updaters
+	* Functions as updaters
+	* ValueTracker
+	* DecimalNumber
+	* `.become` method
+	* `always_redraw`
 14. `alpha` updaters
 15. Custom animations
 16. `dt` updaters
@@ -60,11 +66,13 @@
 	* `AnimationGroup`
 	* `LaggedStart`
 	* With custom animations
-20. Moving Camera and Zoom Scenes (ManimCE only)
+29. Moving Camera and Zoom Scenes (ManimCE only)
 	* `MovingCameraScene`
 	* `ZoomedScene`
-21. ImageMobjects in depth
-22. Interactive scenes
+20. ImageMobjects in depth
+21. `LinearTransformationScene`
+22. Vector fields
+23. Interactive scenes
 
 ## ► Disclaimer
 
