@@ -5,11 +5,11 @@
 0. Introduction
 	* Requirements
 	* How to ask your questions
-	* Work environment setup
 1. Basic elements
 	* How Manim works
 	* Introduction to Mobjects and Animations
 	* Watchexec with Manim
+	* Work environment setup
 2. Mobjects/VMobjects Generalities
 	* Positioning
 	* Transformations
