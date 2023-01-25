@@ -1,5 +1,71 @@
 # Manim CE/GL fast course
 
+## Syllabus
+
+0. Introduction
+	* Requirements
+	* How to do questions
+	* Work environment setup
+1. Basic elements
+	* How Manim works
+	* Introduction to Mobjects and Animations
+	* Watchexec with Manim
+2. Mobjects/VMobjects Generalities
+	* Positioning
+	* Transformations
+	* VMobject attrs
+	* Miscellaneous (V)Mobjects topics
+3. Rendering Settings
+	* With .cfg files (only ManimCE)
+	* With Manim CLI
+	* With CONFIG dict (only ManimCE)
+	* With `tempconfig` (only ManimCE)
+4. Rate functions
+5. Layers
+6. Import Assets
+	* Raster images
+	* SVGs
+	* Sounds
+	* CSV
+7. Groups, VGroups and PGroups
+	* `Group`
+	* `VGroup`
+	* `PGroup`
+8. Text and $\TeX$
+	* Text
+	* $\TeX$
+9. `Transform` animations
+	* `Transform`
+	* `ReplacementTransform`
+	* `TransformFromCopy`
+	* `TransformMatchingShapes`
+	* `TransformMatchingTex`
+	* `MoveToTarget`
+	* `ApplyFunction`
+10. More useful Mobjects and their methods
+	* Code
+	* Lines
+	* Arcs
+	* Brace
+	* Polygons
+11. 2D plots
+12. 3D plots
+13. Basic Updaters
+14. `alpha` updaters
+15. Custom animations
+16. `dt` updaters
+17. Custom Mobjects
+18. `AnimationGroup`
+	* `lag_ratio`
+	* `AnimationGroup`
+	* `LaggedStart`
+	* With custom animations
+20. Moving Camera and Zoom Scenes (ManimCE only)
+	* `MovingCameraScene`
+	* `ZoomedScene`
+21. ImageMobjects in depth
+22. Interactive scenes
+
 ## ► Disclaimer
 
 |                       | Manim Professional Course | ManimCE-GL Fast course |
