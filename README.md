@@ -4,7 +4,7 @@
 
 0. Introduction
 	* Requirements
-	* How to do questions
+	* How to ask your questions
 	* Work environment setup
 1. Basic elements
 	* How Manim works
