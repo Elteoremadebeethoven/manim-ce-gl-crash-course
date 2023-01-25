@@ -28,6 +28,7 @@
 	* Sounds
 	* CSV
 7. Groups, VGroups and PGroups
+	* Submobjects
 	* `Group`
 	* `VGroup`
 	* `PGroup`
@@ -46,20 +47,39 @@
 	* Code
 	* Lines
 	* Arcs
-	* Brace
+	* Braces
 	* Polygons
 	* NumberLine
+	* Tables
+	* Matrix
+	* Boolean Mobjects
 11. 2D plots
+	* Cartesian plots
+	* Polar plots
 12. 3D plots
+	* 3D scene
+	* 3D axes
+	* Plots
 13. Basic Updaters
 	* Functions as updaters
-	* ValueTracker
-	* DecimalNumber
+	* `ValueTracker`
+	* `DecimalNumber`
 	* `.become` method
 	* `always_redraw`
 14. `alpha` updaters
+	* Allowed `alpha` values
+	* `.save_state()` technique
 15. Custom animations
+	* `__init__` method
+	* `_setup_scene`
+	* `begin` method
+	* With `interpolate_mobject`
+	* With `interpolate_submobject`
+	* With both
+	* `clean_up_from_scene`
 16. `dt` updaters
+	* Problems with updaters
+	* Animations into `dt` updaters
 17. Custom Mobjects
 18. `AnimationGroup`
 	* `lag_ratio`
@@ -70,6 +90,9 @@
 	* `MovingCameraScene`
 	* `ZoomedScene`
 20. ImageMobjects in depth
+	* Pixel manipulation
+	* Pixel interpolation
+	* Filters
 21. `LinearTransformationScene`
 22. Vector fields
 23. Interactive scenes
