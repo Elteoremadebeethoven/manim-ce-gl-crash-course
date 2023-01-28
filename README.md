@@ -2,7 +2,9 @@
 
 Estimated time to finish it: 1 year
 
-## Syllabus
+<details>
+  <summary><h2>Syllabus</h2></summary>
+
 
 0. Introduction
 	* Requirements
@@ -99,7 +101,10 @@ Estimated time to finish it: 1 year
 22. Vector fields
 23. Interactive scenes
 
-## ► Disclaimer
+</details>
+
+
+## 📌 Disclaimer
 
 |                       | Manim Professional Course | ManimCE-GL Fast course |
 | :-------------------: | :-----------------------: | :--------------------: |
@@ -110,46 +115,46 @@ Estimated time to finish it: 1 year
 | ManimGL topics (v1.2) |             ❌             |           ✅            |
 |         Free          |             ❌             |           ✅            |
 
-## ► Requirements to take the course:
+## 📌 Requirements to take the course:
 
 ### Req-0. See if it is really necessary for you to learn Manim, in this video I explain if it is worth it for you.
 
 [![Is it worth learning Manim?](https://img.youtube.com/vi/EONHtYkfCds/0.jpg)](https://www.youtube.com/watch?v=EONHtYkfCds)
 (click in the image)
 
-### Req-1. Basic knowledge of the terminal, preferably Bash.
+### 📝 Req-1. Basic knowledge of the terminal, preferably Bash.
 
 * CMD (Windows): https://www.youtube.com/watch?v=qnXe1gecux
 * Bash on Windows with Git Bash: https://www.youtube.com/watch?v=iGutIN5t9Mo
 * Terminal for Mac: https://www.youtube.com/watch?v=aKRYQsKR46I
 
-### Req-2. Elementary knowledge of Git, Github and Makefiles, you can learn all this in one day.
+### 📝 Req-2. Elementary knowledge of Git, Github and Makefiles, you can learn all this in one day.
 
 * Git and GitHub: https://www.youtube.com/watch?v=tRZGeaHPoaw
 * Makefiles (you need to install gcc and make): https://www.youtube.com/watch?v=yWLkyN_Satk
 
-### Req-3. Basic knowledge of programming with Python:
+### 📝 Req-3. Basic knowledge of programming with Python:
 
 * https://www.youtube.com/watch?v=B9nFMZIYQl0
 
-### Req-4. Basic knowledge of Object Oriented Programming (OOP) with Python:
+### 📝 Req-4. Basic knowledge of Object Oriented Programming (OOP) with Python:
 
 * https://www.youtube.com/watch?v=Ej_02ICOIgs
 * https://www.youtube.com/watch?v=zPFZy6wKhVA
 
-### Req-5. Know the Manim ecosystem and its different versions:
+### 📝 Req-5. Know the Manim ecosystem and its different versions:
 
 [![manim installation](https://img.youtube.com/vi/1tqtgnawBts/0.jpg)](https://www.youtube.com/watch?v=1tqtgnawBts)
 (click in the image)
 
-### Req-6. Install ManimCE and ManimGL:
+### 📝 Req-6. Install ManimCE and ManimGL:
 
 Although the video is from last year it is still valid.
 
 [![manim installation](https://img.youtube.com/vi/CYOLQk8GpME/0.jpg)](https://www.youtube.com/watch?v=CYOLQk8GpME)
 (click in the image)
 
-### Req-7. View the following videos in the order shown.
+### 📝 Req-7. View the following videos in the order shown.
 
 1.
 [![manim installation](https://img.youtube.com/vi/gGU823uEUXU/0.jpg)](https://www.youtube.com/watch?v=gGU823uEUXU)
@@ -164,9 +169,9 @@ Although the video is from last year it is still valid.
 
 [![manim installation](https://img.youtube.com/vi/pW6tGCCzMMQ/0.jpg)](https://www.youtube.com/watch?v=pW6tGCCzMMQ)
 
-## ► Where to ask questions:
+## 📌 Where to ask questions:
 
-### Rules:
+### 🚦 Rules:
 
 1. Share the code in markdown format, [here's](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) a quick tutorial. Please ***DO NOT*** share code on images.
 2. Your question must be accurate, the code should not be longer than ***30 lines***.
@@ -180,7 +185,7 @@ Although the video is from last year it is still valid.
 
 ⚠️⚠️⚠️ ***I will not answer questions that are asked in the videos, nor in the issues of this repository*** ⚠️⚠️⚠️
 
-## ► ManimCE setup:
+## 📌 ManimCE setup:
 
 Install ManimCE last version:
 
@@ -204,7 +209,7 @@ Select the virtual environment that you have created.
 ![image](https://user-images.githubusercontent.com/43224662/214361758-c2cccdeb-e532-4e24-9a3d-2ae8f4bc5546.png)
 
 
-## ► ManimGL setup:
+## 📌 ManimGL setup:
 
 Install ManimGL v1.2 version:
 
