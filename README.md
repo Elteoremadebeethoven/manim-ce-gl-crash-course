@@ -1,4 +1,4 @@
-# Manim CE/GL fast course
+# Manim CE/GL crash course
 
 Estimated time to finish it: 1 year
 
@@ -106,7 +106,7 @@ Estimated time to finish it: 1 year
 
 ## 📌 Disclaimer
 
-|                       | Manim Professional Course | ManimCE-GL Fast course |
+|                       | Manim Professional Course | ManimCE-GL crash course |
 | :-------------------: | :-----------------------: | :--------------------: |
 |        Theory         |             ✅             |           ✅            |
 |       Pro-tips        |             ✅             |           ❌            |
@@ -201,7 +201,7 @@ $ pip install manim jupyter
 Clone repo:
 
 ```
-git clone https://github.com/Elteoremadebeethoven/manim-ce-gl-fast-course.git -b mce code
+git clone https://github.com/Elteoremadebeethoven/manim-ce-gl-crash-course.git -b mce code
 ```
 
 Select the virtual environment that you have created.
@@ -296,7 +296,7 @@ if __name__ == '__main__':
 Clone repo:
 
 ```
-git clone https://github.com/Elteoremadebeethoven/manim-ce-gl-fast-course.git -b mgl code
+git clone https://github.com/Elteoremadebeethoven/manim-ce-gl-crash-course.git -b mgl code
 ```
 
 # 💸 Suport this work on:
