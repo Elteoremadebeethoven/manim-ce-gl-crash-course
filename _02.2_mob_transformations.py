@@ -228,3 +228,26 @@ class _10(Scene):
         mob2.apply_matrix(matrix, about_point=ref2.get_center())
 
         self.add(NumberPlane(), mob1, mob2, ref1, ref2)
+
+
+# ========================================================
+if __name__ == '__main__':
+    from dotenv import load_dotenv
+    from os import getenv
+    load_dotenv()
+    # ---
+    SCENE = getenv("RENDER_SCENE")
+    RENDER_OPTIONS = getenv("RENDER_OPTIONS")
+    OUTPUT_NAME = getenv("OUTPUT_NAME")
+    FLAGS = f"-{RENDER_OPTIONS} --file_name {OUTPUT_NAME}"
+    if eval(getenv("PROGRESS_BARS")):
+        FLAGS += " --leave_progress_bars"
+    if getenv("FPS"):
+        FLAGS += f" --frame_rate {getenv('FPS')}"
+    if getenv("START_AT"):
+        FLAGS += f" -n {getenv('START_AT')}"
+    # ---
+    script_name = f"{Path(__file__).resolve()}"
+    COMMAND = f"manimgl {script_name} {SCENE} {FLAGS}"
+    print(f"CMD:\033[1m manimgl \033[96m{script_name} \033[93m{SCENE} \033[94m{FLAGS}")
+    os.system(COMMAND)
