@@ -39,7 +39,7 @@ class _03(Scene):
       Square().scale(3)
         # .set_color(RED)
         # .set_stroke(TEAL, 10, 0.5)
-        # .set_fill(ORANGE, 0.1)
+        # .set_fill(ORANGE, 0.7)
         # .set_opacity(0.5)
         # .set_style(
         #   fill_opacity=0.3,
@@ -70,10 +70,10 @@ class _04(Scene):
 
     vmob = VMobject(color=RED) # cannot use .set_points(...) here
     vmob.set_points(xyz_coords)
-    # vmob_as_corners = VMobject(color=TEAL)
-    # vmob_as_corners.set_points_as_corners(xyz_coords)
-    # vmob_smoothly = VMobject(color=PURPLE)
-    # vmob_smoothly.set_points_smoothly(xyz_coords)
+    vmob_as_corners = VMobject(color=TEAL)
+    vmob_as_corners.set_points_as_corners(xyz_coords)
+    vmob_smoothly = VMobject(color=PURPLE)
+    vmob_smoothly.set_points_smoothly(xyz_coords)
 
     self.add(
       NumberPlane(), *dots,
@@ -102,7 +102,7 @@ class _05(Scene):
 class _06(Scene):
   def construct(self):
     vmob = Circle().scale(3.4)
-    # vmob.data["points"][0] += LEFT
+    # vmob.data["points"][2] += LEFT
     control_points = vmob.get_all_points()
 
     dots = [ Dot(point)

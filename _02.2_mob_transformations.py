@@ -39,12 +39,13 @@ __        ___ _   _                 _         _            _       _
 
 class _01(Scene):
     def construct(self):
-        mob = Square()
+        mob = Rectangle()
 
-        mob.set_width(4)
+        # mob.set_width(6)
         # mob.set_height(6)
 
         self.add(NumberPlane(), mob)
+        self.wait()
 
 
 class _02(Scene):
@@ -56,18 +57,20 @@ class _02(Scene):
         # t.match_height(mob)
 
         self.add(NumberPlane(), mob, t)
+        self.wait()
 
 
 class _03(Scene):
     def construct(self):
         mob = Square()
 
-        mob.scale(1)
+        # mob.scale(1)
         # mob.scale(2)
         # mob.scale(3)
         # mob.scale(0.5)
 
         self.add(NumberPlane(), mob)
+        self.wait()
 
 """
 __        ___ _   _           _            _       _     
@@ -86,6 +89,7 @@ class _04(Scene):
         # mob.stretch_to_fit_width(4)
 
         self.add(NumberPlane(), mob)
+        self.wait()
 
 
 class _05(Scene):
@@ -97,6 +101,7 @@ class _05(Scene):
         # t.match_height(mob, stretch=True)
 
         self.add(NumberPlane(), mob, t)
+        self.wait()
 
 """
 __        ___ _   _       ____       _        _   _                 
@@ -111,9 +116,10 @@ class _06(Scene):
         mob = Square().scale(2)
 
         # mob.rotate(PI/4)
-        # mob.rotate(45 * DEGREES)
+        # mob.rotate(60 * DEGREES)
 
         self.add(NumberPlane(), mob)
+        self.wait()
 
 # The Star class is not defined, so I passed the
 # code from ManimCE to ManimGL here ========================
@@ -176,6 +182,7 @@ class _07(Scene):
         dot2 = Dot(mob.get_center_of_mass(), color=RED)
 
         self.add(NumberPlane(), mob, dot1, dot2)
+        self.wait()
 
 
 class _08(Scene):
@@ -186,18 +193,20 @@ class _08(Scene):
         mob1.rotate(PI/4)
         # same as:
         # mob1.rotate(PI/4, about_point=mob1.get_center())
-        mob2.rotate(PI/4, about_point=mob2.get_center_of_mass())
+        # mob2.rotate(PI/4, about_point=mob2.get_center_of_mass())
 
         self.add(NumberPlane(), mob1, mob2)
+        self.wait()
 
 
 class _09(Scene):
     def construct(self):
         mob = Text("A").shift(DOWN*3)
 
-        # mob.rotate(45*DEGREES, about_point=ORIGIN)    
+        mob.rotate(45*DEGREES, about_point=ORIGIN)    
 
         self.add(NumberPlane(), mob)
+        self.wait()
 
 """
  ____                  _  __ _      
@@ -228,6 +237,7 @@ class _10(Scene):
         mob2.apply_matrix(matrix, about_point=ref2.get_center())
 
         self.add(NumberPlane(), mob1, mob2, ref1, ref2)
+        self.wait()
 
 
 # ========================================================
