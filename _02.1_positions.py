@@ -33,12 +33,12 @@ class _02(Scene):
 
 """
 ORIGIN = np.array([ 0, 0, 0])
-UP    = np.array([ 0, 1, 0])
-DOWN  = np.array([ 0,-1, 0])
-RIGHT = np.array([ 1, 0, 0])
-LEFT  = np.array([-1, 0, 0])
-OUT   = np.array([ 0, 0, 1])
-IN    = np.array([ 0, 0,-1])
+UP     = np.array([ 0, 1, 0])
+DOWN   = np.array([ 0,-1, 0])
+RIGHT  = np.array([ 1, 0, 0])
+LEFT   = np.array([-1, 0, 0])
+OUT    = np.array([ 0, 0, 1])
+IN     = np.array([ 0, 0,-1])
 UR = UP   + RIGHT = np.array([ 1, 1, 0])
 DR = DOWN + RIGHT = np.array([ 1,-1, 0])
 UL = UP   + LEFT  = np.array([-1, 1, 0])
